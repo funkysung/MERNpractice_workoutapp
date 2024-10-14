@@ -1,0 +1,7 @@
+This is a full-stack project done to practice MERN workflow
+
+Created an workout mangement app utlising following tools:
+-react.js (javascript library for visual app components)
+-express (lightweight server side framework for managing apis and other backend logic)
+-MongoDB (noSQL database)
+-node.js (allows us to run javascript logic backend)
