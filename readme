@@ -9,3 +9,5 @@ Created an workout mangement app utlising following tools:
 additional tools used
 -nodemon for live change detection backend
 -Postman for api requests handling/testing
+-dotenv for concealing sensitive information (add .env to gitignore later)
+-mongoose additional package to help with MongoDB workflow (wraps around mongoDB and provide more functionalities and formats)
