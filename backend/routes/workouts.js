@@ -3,6 +3,8 @@ const {
     getWorkouts,
     getSingleWorkout,
     createWorkout,
+    deleteWorkout,
+    updateWorkout
 } = require('../controllers/workoutController')
 
 //router function to get access to app
@@ -18,14 +20,10 @@ router.get('/:id', getSingleWorkout)
 router.post('/', createWorkout)
 
 //Delete a single workout
-router.delete('/:id', (req, res) => {
-    res.json({mssg: 'DELETE a new workout'})
-})
+router.delete('/:id', deleteWorkout)
 
 //Update a single workout
-router.patch('/:id', (req, res) => {
-    res.json({mssg: 'UPDATE an existing workout'})
-})
+router.patch('/:id', updateWorkout)
 
 module.exports = router
 
