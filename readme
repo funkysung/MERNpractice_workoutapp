@@ -5,3 +5,6 @@ Created an workout mangement app utlising following tools:
 -express (lightweight server side framework for managing apis and other backend logic)
 -MongoDB (noSQL database)
 -node.js (allows us to run javascript logic backend)
+
+additional tools
+-nodemon for live change detection backend
